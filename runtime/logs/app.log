@@ -1613,3 +1613,68 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1521675153.811
     'REQUEST_TIME' => 1521675153
 ]
+2018-03-22 12:22:16 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function integer()' in C:\Users\mayur_000\PhpstormProjects\YII2-test\migrations\m180322_120831_test.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-03-22 12:22:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\mayur_000\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'TERMINATOR-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\mayur_000'
+    'LOCALAPPDATA' => 'C:\\Users\\mayur_000\\AppData\\Local'
+    'LOGONSERVER' => '\\\\TERMINATOR-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OneDrive' => 'C:\\Users\\mayur_000\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\mayur_000\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mayur_000\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Users\\mayur_000\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\MAYUR_~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MAYUR_~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'TERMINATOR-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'TERMINATOR-PC'
+    'USERNAME' => 'mayur_000'
+    'USERPROFILE' => 'C:\\Users\\mayur_000'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Users\\mayur_000\\PhpstormProjects\\YII2-test\\'
+    'PHP_SELF' => 'C:\\Users\\mayur_000\\PhpstormProjects\\YII2-test\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\mayur_000\\PhpstormProjects\\YII2-test\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\mayur_000\\PhpstormProjects\\YII2-test\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\mayur_000\\PhpstormProjects\\YII2-test\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1521721328.7567
+    'REQUEST_TIME' => 1521721328
+    'argv' => [
+        0 => 'C:\\Users\\mayur_000\\PhpstormProjects\\YII2-test\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
