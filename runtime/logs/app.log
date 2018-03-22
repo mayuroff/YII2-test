@@ -1,0 +1,1615 @@
+2018-03-20 13:44:51 [::1][-][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\User' in file: C:\Users\mayur_000\PhpstormProjects\YII2-test/models/User.php. Namespace missing?' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\User')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(690): spl_autoload_call('app\\models\\User')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(79): yii\base\Component->__get('isGuest')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\Module.php(182): yii\BaseYii::createObject(Array)
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\Module.php(154): yii\debug\Module->initPanels()
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#14 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#15 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#16 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#17 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#18 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#19 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#20 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#21 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#22 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#23 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#24 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#25 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->__construct(Array)
+#26 {main}
+2018-03-20 13:44:50 [::1][-][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '65165'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521553490.851
+    'REQUEST_TIME' => 1521553490
+]
+2018-03-20 14:21:38 [::1][-][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\User' in file: C:\Users\mayur_000\PhpstormProjects\YII2-test/models/User.php. Namespace missing?' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\User')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(690): spl_autoload_call('app\\models\\User')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(79): yii\base\Component->__get('isGuest')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\Module.php(182): yii\BaseYii::createObject(Array)
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\Module.php(154): yii\debug\Module->initPanels()
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#14 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#15 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#16 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#17 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#18 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#19 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#20 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#21 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#22 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#23 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#24 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#25 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->__construct(Array)
+#26 {main}
+2018-03-20 14:21:38 [::1][-][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '65500'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521555698.886
+    'REQUEST_TIME' => 1521555698
+]
+2018-03-20 14:55:19 [::1][-][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\User' in file: C:\Users\mayur_000\PhpstormProjects\YII2-test/models/User.php. Namespace missing?' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\User')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(690): spl_autoload_call('app\\models\\User')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(192): yii\web\User->renewAuthStatus()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\User.php(360): yii\web\User->getIdentity()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(79): yii\base\Component->__get('isGuest')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\panels\UserPanel->init()
+#7 [internal function]: yii\base\BaseObject->__construct(Array)
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\Module.php(182): yii\BaseYii::createObject(Array)
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2-debug\src\Module.php(154): yii\debug\Module->initPanels()
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\debug\Module->init()
+#14 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(158): yii\base\BaseObject->__construct(Array)
+#15 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#16 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#17 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#18 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#19 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(427): yii\BaseYii::createObject(Array, Array)
+#20 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(315): yii\base\Module->getModule('debug')
+#21 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#22 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(273): yii\web\Application->bootstrap()
+#23 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\base\Application->init()
+#24 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(206): yii\base\BaseObject->__construct(Array)
+#25 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->__construct(Array)
+#26 {main}
+2018-03-20 14:55:19 [::1][-][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49326'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521557719.647
+    'REQUEST_TIME' => 1521557719
+]
+2018-03-20 14:57:56 [::1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/index".' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-03-20 14:57:55 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49333'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521557875.539
+    'REQUEST_TIME' => 1521557875
+]
+2018-03-20 15:05:56 [::1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login".' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-03-20 15:05:56 [::1][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49381'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521558356.308
+    'REQUEST_TIME' => 1521558356
+]
+2018-03-20 15:06:05 [::1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-03-20 15:06:05 [::1][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521558365.601
+    'REQUEST_TIME' => 1521558365
+]
+2018-03-20 15:15:27 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\assets\AppAsset' not found' in C:\Users\mayur_000\PhpstormProjects\YII2-test\views\layouts\main.php:13
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(75): yii\base\Controller->render()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\SiteController->actionIndex()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-03-20 15:15:26 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49436'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521558926.695
+    'REQUEST_TIME' => 1521558926
+]
+2018-03-20 15:29:03 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\assets\AppAsset' in file: C:\Users\mayur_000\PhpstormProjects\YII2-test/assets/AppAsset.php. Namespace missing?' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\assets\\AppA...')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\views\layouts\main.php(13): spl_autoload_call('app\\assets\\AppA...')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Users\\mayur_...')
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Users\\mayur_...', Array)
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\Users\\mayur_...', Array, Object(app\controllers\SiteController))
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-03-20 15:29:03 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49511'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521559743.245
+    'REQUEST_TIME' => 1521559743
+]
+2018-03-20 15:31:47 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'assets\AppAsset' not found' in C:\Users\mayur_000\PhpstormProjects\YII2-test\views\layouts\main.php:13
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(75): yii\base\Controller->render()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\SiteController->actionIndex()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-03-20 15:31:47 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49544'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521559907.24
+    'REQUEST_TIME' => 1521559907
+]
+2018-03-20 15:33:09 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\assets\AppAsset' in file: C:\Users\mayur_000\PhpstormProjects\YII2-test/assets/AppAsset.php. Namespace missing?' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\assets\\AppA...')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\views\layouts\main.php(15): spl_autoload_call('app\\assets\\AppA...')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(336): require('C:\\Users\\mayur_...')
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\Users\\mayur_...', Array)
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\Users\\mayur_...', Array, Object(app\controllers\SiteController))
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-03-20 15:33:09 [::1][1][4i1bplr7fhfnkkv93fola0dnc1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '4i1bplr7fhfnkkv93fola0dnc1'
+    '_csrf' => 'e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4CMHnd3A63OHfye83ORyn1xibTC3pWXj\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'sevuvo'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4i1bplr7fhfnkkv93fola0dnc1; _csrf=e7c687594f4c9fd09efde3bb940f363f199af097a279736268b1d64823714db5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224CMHnd3A63OHfye83ORyn1xibTC3pWXj%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49571'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521559989.153
+    'REQUEST_TIME' => 1521559989
+]
+2018-03-21 09:02:34 [::1][-][r03f6s8ge2s25nk0vepqi6ru63][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\Users\mayur_000\PhpstormProjects\YII2-test\views\site\profile.php:26
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(139): yii\base\Controller->render()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): app\controllers\SiteController->actionProfile()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#7 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-03-21 09:02:34 [::1][-][r03f6s8ge2s25nk0vepqi6ru63][info][application] $_GET = [
+    'r' => 'site/profile'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'r03f6s8ge2s25nk0vepqi6ru63'
+    '_csrf' => 'd566b11495c207945ca9737b0d43e0755e1770d4a9584e644d37d09a7258c9f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mrNJfUGByICKIXIjNU7d68lANjC8iC08\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=r03f6s8ge2s25nk0vepqi6ru63; _csrf=d566b11495c207945ca9737b0d43e0755e1770d4a9584e644d37d09a7258c9f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mrNJfUGByICKIXIjNU7d68lANjC8iC08%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '49990'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/profile'
+    'REQUEST_URI' => '/?r=site/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521622954.387
+    'REQUEST_TIME' => 1521622954
+]
+2018-03-21 18:29:51 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function delete() on null' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:136
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 18:29:51 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/profile'
+    'action' => 'delete'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dcj9p7l3vkokt7nl38dj535d05'
+    '_csrf' => 'fcb06b4f4a903be4709c6264e93614e9a8d489526b65f4255ef3744b09263d16a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Q9VQC_g5FSbrVSYOVZPgC-FAOseHmBrZ\";}'
+]
+
+$_SESSION = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-test/index.php?r=site%2Fprofile'
+    'HTTP_COOKIE' => 'PHPSESSID=dcj9p7l3vkokt7nl38dj535d05; _csrf=fcb06b4f4a903be4709c6264e93614e9a8d489526b65f4255ef3744b09263d16a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9VQC_g5FSbrVSYOVZPgC-FAOseHmBrZ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '50306'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/profile&action=delete'
+    'REQUEST_URI' => '/?r=site/profile&action=delete'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521656991.736
+    'REQUEST_TIME' => 1521656991
+]
+2018-03-21 21:03:08 [::1][-][550s2ivpa9anbp0odk9k232in2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: adminEmail' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:88
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 21:03:07 [::1][-][550s2ivpa9anbp0odk9k232in2][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'XrtR2PZs66GuqNSjjZ3cF6BuBaM_O8vZjtHb8Re6BhUzzmiukFiR5OHKg-H366okxB1TzA9CkoPtvYOlVPlvbw=='
+    'SignupForm' => [
+        'firstName' => 'Генрих'
+        'lastName' => 'Ашкенази'
+        'email' => 'mayuroff@yandex.ru'
+        'password' => '123456'
+        'repeatPassword' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '550s2ivpa9anbp0odk9k232in2'
+    '_csrf' => '3e1c824d5fd28c93b89a0b1b39959461adba31002c9681ee535e14e3cb5d6c09a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mu9vf4zEObWBzvv3dsVo0yYZclXTCCiz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-test/index.php'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '363'
+    'HTTP_COOKIE' => 'PHPSESSID=550s2ivpa9anbp0odk9k232in2; _csrf=3e1c824d5fd28c93b89a0b1b39959461adba31002c9681ee535e14e3cb5d6c09a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mu9vf4zEObWBzvv3dsVo0yYZclXTCCiz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '50896'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521666187.071
+    'REQUEST_TIME' => 1521666187
+]
+2018-03-21 21:40:37 [::1][-][hu285tdgk814easutbguplhef2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:100
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 21:40:37 [::1][-][hu285tdgk814easutbguplhef2][info][application] $_GET = [
+    'key' => 'Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hu285tdgk814easutbguplhef2'
+    '_csrf' => '7e92ac5a1bcf8f65c125b9a1c12f232cc364cccaa17cb2cb33980ffbd304c579a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"h0NHaFC-kzSjd48zaPsyti9PKda7kYza\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    'success' => 'Account activation successful.'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=hu285tdgk814easutbguplhef2; _csrf=7e92ac5a1bcf8f65c125b9a1c12f232cc364cccaa17cb2cb33980ffbd304c579a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22h0NHaFC-kzSjd48zaPsyti9PKda7kYza%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51189'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'REQUEST_URI' => '/index.php?key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521668437.6
+    'REQUEST_TIME' => 1521668437
+]
+2018-03-21 21:54:30 [::1][3][ud7lnn19n4upd0sjgh3n6kbv20][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:101
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 21:54:29 [::1][3][ud7lnn19n4upd0sjgh3n6kbv20][info][application] $_GET = [
+    'key' => 'Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hu285tdgk814easutbguplhef2'
+    '_csrf' => '7e92ac5a1bcf8f65c125b9a1c12f232cc364cccaa17cb2cb33980ffbd304c579a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"h0NHaFC-kzSjd48zaPsyti9PKda7kYza\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__id' => 3
+    'success' => 'Account activation successful.'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=hu285tdgk814easutbguplhef2; _csrf=7e92ac5a1bcf8f65c125b9a1c12f232cc364cccaa17cb2cb33980ffbd304c579a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22h0NHaFC-kzSjd48zaPsyti9PKda7kYza%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'REQUEST_URI' => '/index.php?key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521669269.977
+    'REQUEST_TIME' => 1521669269
+]
+2018-03-21 21:56:07 [::1][-][ud7lnn19n4upd0sjgh3n6kbv20][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:101
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 21:56:07 [::1][-][ud7lnn19n4upd0sjgh3n6kbv20][info][application] $_GET = [
+    'key' => 'Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ud7lnn19n4upd0sjgh3n6kbv20'
+    '_csrf' => 'c64f938baf88e533b17b4362ade2353992bad963b22760f04b1937819bdf7916a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QkgK9bxbtAyL2so_7D9jpqy1dxx7H2t1\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__id' => 3
+    'success' => 'Account activation successful.'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ud7lnn19n4upd0sjgh3n6kbv20; _csrf=c64f938baf88e533b17b4362ade2353992bad963b22760f04b1937819bdf7916a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QkgK9bxbtAyL2so_7D9jpqy1dxx7H2t1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51268'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'REQUEST_URI' => '/index.php?key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521669367.528
+    'REQUEST_TIME' => 1521669367
+]
+2018-03-21 22:29:27 [::1][3][8vllo6ivtmp25jsjlhjg0jqlf4][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:102
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 22:29:27 [::1][3][8vllo6ivtmp25jsjlhjg0jqlf4][info][application] $_GET = [
+    'key' => 'Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ud7lnn19n4upd0sjgh3n6kbv20'
+    '_csrf' => 'c64f938baf88e533b17b4362ade2353992bad963b22760f04b1937819bdf7916a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QkgK9bxbtAyL2so_7D9jpqy1dxx7H2t1\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    'success' => 'Account activation successful.'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ud7lnn19n4upd0sjgh3n6kbv20; _csrf=c64f938baf88e533b17b4362ade2353992bad963b22760f04b1937819bdf7916a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22QkgK9bxbtAyL2so_7D9jpqy1dxx7H2t1%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'REQUEST_URI' => '/index.php?key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521671367.699
+    'REQUEST_TIME' => 1521671367
+]
+2018-03-21 23:06:50 [::1][-][e0jv32aur91duevssluf09m666][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php:102
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2018-03-21 23:06:49 [::1][-][e0jv32aur91duevssluf09m666][info][application] $_GET = [
+    'key' => 'Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'e0jv32aur91duevssluf09m666'
+    '_csrf' => '47fa3e245702f069d6c56c7792786a0bdf302c64c50cfbf2d8b20f4a818b82e1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Rol8a7mYLn6ikTuYYV9BaijonRhZVyic\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'error' => -1
+    ]
+    'error' => 'Account could not be activated.'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=e0jv32aur91duevssluf09m666; _csrf=47fa3e245702f069d6c56c7792786a0bdf302c64c50cfbf2d8b20f4a818b82e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Rol8a7mYLn6ikTuYYV9BaijonRhZVyic%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51689'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'REQUEST_URI' => '/index.php?key=Cr4g22hCzKDEnqnXPts8G5-owcdtCp7_'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521673609.932
+    'REQUEST_TIME' => 1521673609
+]
+2018-03-21 23:30:19 [::1][3][1rcdumemi6bda1g5v1j3m577n2][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\controllers\SiteController::firstName' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(163): yii\base\Component->__get('firstName')
+#1 [internal function]: app\controllers\SiteController->actionProfile()
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('profile', Array)
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/profile', Array)
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-03-21 23:30:19 [::1][3][1rcdumemi6bda1g5v1j3m577n2][info][application] $_GET = [
+    'r' => 'site/profile'
+]
+
+$_POST = [
+    '_csrf' => 'tX8pDPCx7TpH9KJpUHi_JlL5QLHwz21pM3Dlg2o7WSXmCm5kiuGrbg3ZzF4oN4pvFpIq2YK7QFtFR6-yPg0RSw=='
+    'ProfileForm' => [
+        'firstName' => 'Генрих2'
+        'lastName' => 'Ашкенази'
+        'email' => 'mayuroff@yandex.ru'
+        'password' => ''
+    ]
+    'profile-update-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1rcdumemi6bda1g5v1j3m577n2'
+    '_csrf' => '848e6ffd2403e450b692ee8cc603e59f5b6e374e9c0f0084b350f95480cfd907a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SuGhzPFTJ-n7xO5IDkjhrt-2v7J1T6Hn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-test/index.php?r=site%2Fprofile'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '332'
+    'HTTP_COOKIE' => 'PHPSESSID=1rcdumemi6bda1g5v1j3m577n2; _csrf=848e6ffd2403e450b692ee8cc603e59f5b6e374e9c0f0084b350f95480cfd907a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SuGhzPFTJ-n7xO5IDkjhrt-2v7J1T6Hn%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fprofile'
+    'REQUEST_URI' => '/index.php?r=site%2Fprofile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521675019.22
+    'REQUEST_TIME' => 1521675019
+]
+2018-03-21 23:32:00 [::1][3][1rcdumemi6bda1g5v1j3m577n2][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(247): yii\db\Command->execute()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(801): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(591): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(672): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(170): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SiteController->actionProfile()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null
+The SQL being executed was: UPDATE `user` SET `firstName`=NULL, `lastName`=NULL, `updated_at`=1521675120 WHERE `id`=3' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `user` S...')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(247): yii\db\Command->execute()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(801): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(591): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(672): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(170): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SiteController->actionProfile()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'firstName' cannot be null
+)
+
+2018-03-21 23:32:00 [::1][3][1rcdumemi6bda1g5v1j3m577n2][info][application] $_GET = [
+    'r' => 'site/profile'
+]
+
+$_POST = [
+    '_csrf' => 'tX8pDPCx7TpH9KJpUHi_JlL5QLHwz21pM3Dlg2o7WSXmCm5kiuGrbg3ZzF4oN4pvFpIq2YK7QFtFR6-yPg0RSw=='
+    'ProfileForm' => [
+        'firstName' => 'Генрих2'
+        'lastName' => 'Ашкенази'
+        'email' => 'mayuroff@yandex.ru'
+        'password' => ''
+    ]
+    'profile-update-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1rcdumemi6bda1g5v1j3m577n2'
+    '_csrf' => '848e6ffd2403e450b692ee8cc603e59f5b6e374e9c0f0084b350f95480cfd907a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SuGhzPFTJ-n7xO5IDkjhrt-2v7J1T6Hn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-test/index.php?r=site%2Fprofile'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '332'
+    'HTTP_COOKIE' => 'PHPSESSID=1rcdumemi6bda1g5v1j3m577n2; _csrf=848e6ffd2403e450b692ee8cc603e59f5b6e374e9c0f0084b350f95480cfd907a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SuGhzPFTJ-n7xO5IDkjhrt-2v7J1T6Hn%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51797'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fprofile'
+    'REQUEST_URI' => '/index.php?r=site%2Fprofile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521675120.445
+    'REQUEST_TIME' => 1521675120
+]
+2018-03-21 23:32:33 [::1][3][1rcdumemi6bda1g5v1j3m577n2][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(247): yii\db\Command->execute()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(801): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(591): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(672): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(170): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SiteController->actionProfile()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null
+The SQL being executed was: UPDATE `user` SET `firstName`=NULL, `lastName`=NULL, `updated_at`=1521675153 WHERE `id`=3' in C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `user` S...')
+#1 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(247): yii\db\Command->execute()
+#3 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(801): yii\db\ActiveRecord::updateAll('[<span class="s...', '[<span class="s...')
+#4 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\ActiveRecord.php(591): yii\db\BaseActiveRecord->updateInternal('<span class="ke...')
+#5 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\db\BaseActiveRecord.php(672): yii\db\ActiveRecord->update('<span class="ke...', '<span class="ke...')
+#6 C:\Users\mayur_000\PhpstormProjects\YII2-test\controllers\SiteController.php(170): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\SiteController->actionProfile()
+#8 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#9 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 C:\Users\mayur_000\PhpstormProjects\YII2-test\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\mayur_000\PhpstormProjects\YII2-test\web\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'firstName' cannot be null
+)
+
+2018-03-21 23:32:33 [::1][3][1rcdumemi6bda1g5v1j3m577n2][info][application] $_GET = [
+    'r' => 'site/profile'
+]
+
+$_POST = [
+    '_csrf' => 'rpFjQW4IwwM0FrBoU6LLBMksvbx7dsFcy5KVMidX9OT95CQpFFiFV3473l8r7f5NjUfX1AkC7G69pd8Dc2G8ig=='
+    'ProfileForm' => [
+        'firstName' => 'Генрих2'
+        'lastName' => 'Ашкенази'
+        'email' => 'mayuroff@yandex.ru'
+        'password' => ''
+    ]
+    'profile-update-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1rcdumemi6bda1g5v1j3m577n2'
+    '_csrf' => '848e6ffd2403e450b692ee8cc603e59f5b6e374e9c0f0084b350f95480cfd907a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SuGhzPFTJ-n7xO5IDkjhrt-2v7J1T6Hn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2-test/index.php?r=site%2Fprofile'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '332'
+    'HTTP_COOKIE' => 'PHPSESSID=1rcdumemi6bda1g5v1j3m577n2; _csrf=848e6ffd2403e450b692ee8cc603e59f5b6e374e9c0f0084b350f95480cfd907a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SuGhzPFTJ-n7xO5IDkjhrt-2v7J1T6Hn%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\wamp64\\bin\\php\\php5.6.31;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.27 (Win64) PHP/5.6.31 Server at yii2-test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.27 (Win64) PHP/5.6.31'
+    'SERVER_NAME' => 'yii2-test'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'C:/Users/mayur_000/PhpstormProjects/YII2-test/web/index.php'
+    'REMOTE_PORT' => '51808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fprofile'
+    'REQUEST_URI' => '/index.php?r=site%2Fprofile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1521675153.811
+    'REQUEST_TIME' => 1521675153
+]
